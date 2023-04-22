@@ -4,3 +4,5 @@ npm install @react-navigation/native @react-navigation/bottom-tabs @react-naviga
 
 y depsues :
 holis  si ejecutas este progrmaa escribe npx start
+_____________________________________
+pro desscargar este : npm install react-hook-form
