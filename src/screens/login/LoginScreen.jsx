@@ -66,6 +66,7 @@ export const LoginScreen = () => {
       <TouchableOpacity style={styles.button} onPress={handleSubmit(handleLogin)}>
         <Text style={styles.buttonText}>Entrar</Text>
       </TouchableOpacity>
+
     </View>
   )
 }

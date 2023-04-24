@@ -7,6 +7,7 @@ import { ProfileScreen } from './src/screens/profile/ProfileScreen'
 import { LocationListStackScreen } from './src/screens/location-list/LocationListStackScreen'
 import { Ionicons } from '@expo/vector-icons'
 import { COLORS, SPACING } from './src/utils/theme'
+import RegisterScreen from './src/screens/login/RegisterScreen' 
 
 const Tab = createBottomTabNavigator()
 
@@ -38,6 +39,7 @@ export default function App () {
           <Tab.Screen name='Inicio' component={HomeScreen} />
           <Tab.Screen name='Explorar' component={LocationListStackScreen} />
           <Tab.Screen name='Perfil' component={ProfileScreen} />
+          <Tab.Screen name='Registrarse' component={RegisterScreen} />
         </Tab.Navigator>
       </NavigationContainer>
       <StatusBar style='auto' />
