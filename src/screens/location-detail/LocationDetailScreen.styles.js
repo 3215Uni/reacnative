@@ -22,7 +22,7 @@ export const styles = StyleSheet.create({
   },
   price: {
     fontSize: 20,
-    color: '#444',
+    color: '#808080',
     marginBottom: 5
   },
   ratingContainer: {
